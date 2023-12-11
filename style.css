@@ -1,0 +1,91 @@
+body{
+    background-color: blueviolet;
+}
+
+/*Referenciando as TAGS no CSS:
+1. Pelo id que é a identificação única desse elemento. 
+ex:
+No HTML:
+<p id = "início"> </p>
+No CSS:
+#inicio{
+    font-size:18;
+}
+
+2. Pela classe que pe a identificação de um grupo de elementos por sua característica/função.
+ex:
+No HTML:
+<h1 class= "titulo"></h1>
+<p class="titulo"></p>
+No CSS:
+.titulo{
+    font-size:20px;
+    color: pink;
+}
+
+3. Pela própria TAG
+ex:
+No HTML:
+<p> hoje...</p>
+No CSS:
+p{
+    font-size:14;
+    font-family:'Arial';
+}
+*/
+
+#tituloInicial{
+    font-size: 100px;
+    font-family:'Julius Sans One' ;
+}
+#placaMae, td, tr{
+    font-family: 'Roboto'
+}
+#placaMae{
+    background-color: rgb(72, 195, 247);
+    border: 2px solid  rgb(72, 195, 247);
+}
+td{
+    text-align: center ;/*Alinhamento*/
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    font-size:large;
+    border: 2px solid rgb(72, 195, 247);
+}
+#entradasSaidas, td, tr{
+    font-family: 'Roboto';
+}
+#entradasSaidas{
+    background-color: rgb(72, 195, 247);
+    border: 2px solid rgb(72, 195, 247);
+}
+#cabecalho1{
+    background-color: rgb(72, 195, 247);
+    color: rgb(0, 0, 0);
+    font-family: 'Julius Sans One';
+    font-size: 20px;
+
+}
+p{
+    font-size: 25px ;
+    font-family: "Roboto";
+    font-weight: lighter;
+}
+h1{
+    font-family: 'Julius Sans One';
+    font-size: 50px;
+    font-weight: bolder;
+}
+h3{
+    font-family: 'Julius Sans One';
+    font-size: 60px;
+    font-weight: bolder;
+}
+.carousel-control-prev{
+    color: black;
+    background-color: black;
+}
+.carousel-control-next{
+    color: black;
+    background-color: black;
+}
